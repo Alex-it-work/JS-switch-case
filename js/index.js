@@ -25,57 +25,57 @@
 
 // const month = generateRandomIntMinMax(1, 12);
 // switch (true) {
-//   case month <= 3:
+//   case month === 12 && month <= 2:
 //     console.log("winter");
 //     break;
-//   case month <= 6:
+//   case month <= 5:
 //     console.log("spring");
 //     break;
-//   case month <= 9:
+//   case month <= 8:
 //     console.log("summer");
 //     break;
-//   case month <= 12:
+//   case month <= 11:
 //     console.log("autumn");
 //     break;
 //   default:
-//     console.log("Critical code error!");
+//     console.log("Incorrect month");
 //     break;
 // }
 
 // 3) Запросить у пользователя номер дня недели и вывести соответствующее полное строковое название (например, если пользователь вводит 7 - выводится сообщение "воскресенье"). предусмотреть ошибку введения (default)
 
-// const enteredNum = Number(prompt("Enter integer from 1 to 7 pls"));
-// switch (true) {
-//   case enteredNum === 1:
+// const enteredCount = Number(prompt("Enter integer from 1 to 7 pls"));
+// switch (enteredCount) {
+//   case 1:
 //     console.log("Monday");
 //     break;
-//   case enteredNum === 2:
+//   case 2:
 //     console.log("Tuesday");
 //     break;
-//   case enteredNum === 3:
+//   case 3:
 //     console.log("Wednesday");
 //     break;
-//   case enteredNum === 4:
+//   case 4:
 //     console.log("Thursday");
 //     break;
-//   case enteredNum === 5:
+//   case 5:
 //     console.log("Friday");
 //     break;
-//   case enteredNum === 6:
+//   case 6:
 //     console.log("Saturday");
 //     break;
-//   case enteredNum === 7:
+//   case 7:
 //     console.log("Sunday");
 //     break;
 //   default:
-//     console.log("Incorrect number");
+//     console.log("Incorrect count");
 // }
 
 // 4) В переменной day лежит какое-то число из интервала от 1 до 31. Определите в какую декаду месяца попадает это число (в первую, вторую или третью).
 
 // const day = generateRandomIntMinMax(1, 31);
 // switch (true) {
-//   case day <= 10:
+//   case day <= 10 && day > 0:
 //     console.log(`${day} is 1 dec of month`);
 //     break;
 //   case day <= 20:
@@ -85,7 +85,7 @@
 //     console.log(`${day} is 3 dec of month`);
 //     break;
 //   default:
-//     console.log("Critical code error!");
+//     console.log("Incorrect day");
 // }
 
 ///////////////////////////////////////////////////////////////////////////////////////////////
